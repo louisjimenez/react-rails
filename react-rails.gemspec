@@ -29,7 +29,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'coffee-script-source', '~>1.8'
   s.add_dependency 'connection_pool'
   s.add_dependency 'execjs'
-  s.add_dependency 'rails', '>= 3.2'
+  s.add_dependency 'railties', '>= 3.2'
+  s.add_dependency 'sprockets-rails', '< 4.0'
   s.add_dependency 'tilt'
   s.add_dependency 'babel-transpiler', '>=0.7.0'
 
